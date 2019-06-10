@@ -1,0 +1,70 @@
+.wrapper-login {
+    font-family: arial, helvetica, clean, sans-serif;
+    font-size: 13px;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0.33px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 310px;
+    max-width: 310px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.form-signin {
+    margin: 21px 0;
+}
+
+.form-control_login {
+    margin-bottom: 10px;
+}
+
+.wrapper-login .label_login {
+    margin-bottom: 0px;
+    font-weight: 100;
+    letter-spacing: 0.3px;
+}
+
+.wrapper-login .input_login {
+    width: 80%;
+    border: 1px solid #838383;
+    font-weight: normal;
+}
+
+.btn-login {
+    background-color: #2aabd2;
+    color: white;
+    border: 1px solid #ffa028;
+    margin-top: 5px;
+}
+
+.login_copy {
+    color: #999;
+    font-size: 80%;
+}
+
+.error-login__windows {
+    font-family: arial, helvetica, clean, sans-serif;
+    font-size: 13px;
+    color: #333;
+    background-color: rgba(202, 42, 42, 0.24);
+    /* box-shadow: 0.33px 2px 8px rgba(0, 0, 0, 0.3); */
+    width: 310px;
+    max-width: 310px;
+    height: 90px;
+    position: absolute;
+    top: -413px;
+    right: 0;
+    border-color: #e43940;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 3px;
+    left: 0;
+    margin: auto;
+}

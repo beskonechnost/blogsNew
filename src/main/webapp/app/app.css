@@ -1,0 +1,11 @@
+.reduced-left-and-right-padding {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.fs-table-header {
+    background-color: #2aabd2;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}

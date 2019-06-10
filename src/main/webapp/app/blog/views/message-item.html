@@ -1,0 +1,27 @@
+<div class="row text-center" ng-init="messageItem.index = index">
+    <div class="row">
+        <div class="col-xs-12 reduced-left-and-right-padding">
+            <div class="col-xs-8 reduced-left-and-right-padding">
+                <div class="col-xs-2 reduced-left-and-right-padding">
+                    <b>#{{index + 1}}</b>
+                </div>
+                <div class="col-xs-10 reduced-left-and-right-padding">
+                    <span>{{messageItem.messageText}}</span>
+                </div>
+            </div>
+            <div class="col-xs-4 reduced-left-and-right-padding">
+                <div class="col-xs-6 reduced-left-and-right-padding" ng-if="thisIsCurrentUserMessage(messageItem.userId)">
+                    <button class="btn btn-default" ng-click="onEditMessage(messageItem)" type="button">
+                        Edit <span class="glyphicon glyphicon-edit"></span>
+                    </button>
+                </div>
+                <div class="col-xs-6 reduced-left-and-right-padding" ng-if="thisIsCurrentUserMessage(messageItem.userId)">
+                    <button class="btn btn-danger" ng-click="onDeleteMessage(messageItem, index)" type="button">
+                        Delete <span class="glyphicon glyphicon-trash"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="margin-top: 5px; margin-bottom: 10px">
+</div>

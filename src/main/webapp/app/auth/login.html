@@ -1,0 +1,27 @@
+<div>
+    <div class="error-login__windows alert alert-danger" ng-show="error">
+        {{errorMessage}}
+        <a href="javascript:void(0)" ng-click="goHistoryBack()" ng-if="reLogin">Click here, for opening previous
+            page </a>
+    </div>
+    <div class="wrapper-login">
+        <form class="form-signin" ng-submit="login()" role="form">
+            <div class="form-control_login">
+                <label class="label_login" for="name">Username</label><br>
+                <input autofocus class="input_login" id="name" name="name" ng-model="credentials.username" placeholder="" required
+                       type="text">
+            </div>
+
+            <div class="form-control_login">
+                <label class="label_login" for="password">Password</label><br>
+                <input class="input_login" id="password" name="password" ng-model="credentials.password" placeholder=""
+                       type="password">
+            </div>
+
+            <div class="form-control_login">
+                <button class="btn-login" type="submit">Login</button>
+
+            </div>
+        </form>
+    </div>
+</div>
